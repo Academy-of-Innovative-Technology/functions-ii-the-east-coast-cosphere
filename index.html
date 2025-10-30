@@ -46,13 +46,13 @@
           <div class="col"><input id="rectLength" type="number" class="form-control" placeholder="Length"></div>
           <div class="col"><input id="rectWidth" type="number" class="form-control" placeholder="Width"></div>
         </div>
-        <button class="btn btn-outline-primary mb-2">Calculate Area</button>
+        <button id="Area_Rectangle_BTN" class="btn btn-outline-primary mb-2">Calculate Area</button>
         <div class="alert alert-light" id="rectResult"></div>
 
         <!-- Circle Area -->
         <h5 class="mt-4">2. Area of Circle (π × r²)</h5>
         <input id="circleRadius" type="number" class="form-control mb-2" placeholder="Radius">
-        <button class="btn btn-outline-primary mb-2">Calculate Area</button>
+        <button id="Area_Circle_BTN" class="btn btn-outline-primary mb-2">Calculate Area</button>
         <div class="alert alert-light" id="circleResult"></div>
 
         <!-- Pythagorean Theorem -->
@@ -61,7 +61,7 @@
           <div class="col"><input id="sideA" type="number" class="form-control" placeholder="Side A"></div>
           <div class="col"><input id="sideB" type="number" class="form-control" placeholder="Side B"></div>
         </div>
-        <button class="btn btn-outline-primary mb-2">Calculate Hypotenuse</button>
+        <button id="Pythagorean_Theorem_BTN" class="btn btn-outline-primary mb-2">Calculate Hypotenuse</button>
         <div class="alert alert-light" id="pythagoreanResult"></div>
 
         <!-- Simple Interest -->
@@ -71,7 +71,7 @@
           <div class="col"><input id="rate" type="number" class="form-control" placeholder="Rate %"></div>
           <div class="col"><input id="time" type="number" class="form-control" placeholder="Time (yrs)"></div>
         </div>
-        <button class="btn btn-outline-primary mb-2">Calculate Interest</button>
+        <button id="Interest_BTN" class="btn btn-outline-primary mb-2">Calculate Interest</button>
         <div class="alert alert-light" id="interestResult"></div>
 
         <!-- Power -->
@@ -80,7 +80,7 @@
           <div class="col"><input id="base" type="number" class="form-control" placeholder="Base"></div>
           <div class="col"><input id="exponent" type="number" class="form-control" placeholder="Exponent"></div>
         </div>
-        <button class="btn btn-outline-primary mb-2">Calculate Power</button>
+        <button id="Power_BTN" class="btn btn-outline-primary mb-2">Calculate Power</button>
         <div class="alert alert-light" id="powerResult"></div>
 
         <!-- More Formulas -->
@@ -92,13 +92,13 @@
           <div class="col"><input id="periLength" type="number" class="form-control" placeholder="Length"></div>
           <div class="col"><input id="periWidth" type="number" class="form-control" placeholder="Width"></div>
         </div>
-        <button class="btn btn-outline-primary mb-2">Calculate Perimeter</button>
+        <button id="Perimeter_Rectangle_BTN" class="btn btn-outline-primary mb-2">Calculate Perimeter</button>
         <div class="alert alert-light" id="perimeterResult"></div>
 
         <!-- Circumference -->
         <h5 class="mt-4">7. Circumference of Circle (2πr)</h5>
         <input id="circRadius" type="number" class="form-control mb-2" placeholder="Radius">
-        <button class="btn btn-outline-primary mb-2">Calculate Circumference</button>
+        <button id="Circumference_Circle_BTN" class="btn btn-outline-primary mb-2">Calculate Circumference</button>
         <div class="alert alert-light" id="circumferenceResult"></div>
 
         <!-- Triangle Area -->
@@ -107,13 +107,13 @@
           <div class="col"><input id="triangleBase" type="number" class="form-control" placeholder="Base"></div>
           <div class="col"><input id="triangleHeight" type="number" class="form-control" placeholder="Height"></div>
         </div>
-        <button class="btn btn-outline-primary mb-2">Calculate Area</button>
+        <button id="Area_Triangle_BTN" class="btn btn-outline-primary mb-2">Calculate Area</button>
         <div class="alert alert-light" id="triangleAreaResult"></div>
 
         <!-- Volume of Cube -->
         <h5 class="mt-4">9. Volume of Cube (side³)</h5>
         <input id="cubeSide" type="number" class="form-control mb-2" placeholder="Side">
-        <button class="btn btn-outline-primary mb-2">Calculate Volume</button>
+        <button id="Volume_Cube_BTN" class="btn btn-outline-primary mb-2">Calculate Volume</button>
         <div class="alert alert-light" id="cubeVolumeResult"></div>
 
         <!-- Volume of Rectangular Prism -->
@@ -123,7 +123,7 @@
           <div class="col"><input id="prismWidth" type="number" class="form-control" placeholder="Width"></div>
           <div class="col"><input id="prismHeight" type="number" class="form-control" placeholder="Height"></div>
         </div>
-        <button class="btn btn-outline-primary mb-2">Calculate Volume</button>
+        <button id="Volume_Prism_BTN" class="btn btn-outline-primary mb-2">Calculate Volume</button>
         <div class="alert alert-light" id="prismVolumeResult"></div>
 
         <!-- Volume of Cylinder -->
@@ -132,7 +132,7 @@
           <div class="col"><input id="cylRadius" type="number" class="form-control" placeholder="Radius"></div>
           <div class="col"><input id="cylHeight" type="number" class="form-control" placeholder="Height"></div>
         </div>
-        <button class="btn btn-outline-primary mb-2">Calculate Volume</button>
+        <button id="Volume_Cylinder_BTN" class="btn btn-outline-primary mb-2">Calculate Volume</button>
         <div class="alert alert-light" id="cylinderVolumeResult"></div>
 
         <!-- Speed -->
@@ -141,7 +141,7 @@
           <div class="col"><input id="distance" type="number" class="form-control" placeholder="Distance"></div>
           <div class="col"><input id="time" type="number" class="form-control" placeholder="Time"></div>
         </div>
-        <button class="btn btn-outline-primary mb-2">Calculate Speed</button>
+        <button id="Calculate_Speed_BTN" class="btn btn-outline-primary mb-2">Calculate Speed</button>
         <div class="alert alert-light" id="speedResult"></div>
 
         <!-- Density -->
@@ -150,7 +150,7 @@
           <div class="col"><input id="mass" type="number" class="form-control" placeholder="Mass"></div>
           <div class="col"><input id="volume" type="number" class="form-control" placeholder="Volume"></div>
         </div>
-        <button class="btn btn-outline-primary mb-2">Calculate Density</button>
+        <button id="Density_BTN" class="btn btn-outline-primary mb-2">Calculate Density</button>
         <div class="alert alert-light" id="densityResult"></div>
 
         <!-- BMI -->
@@ -159,7 +159,7 @@
           <div class="col"><input id="weight" type="number" class="form-control" placeholder="Weight (kg)"></div>
           <div class="col"><input id="height" type="number" class="form-control" placeholder="Height (m)"></div>
         </div>
-        <button class="btn btn-outline-primary mb-2">Calculate BMI</button>
+        <button id="BMI_BTN" class="btn btn-outline-primary mb-2">Calculate BMI</button>
         <div class="alert alert-light" id="bmiResult"></div>
 
         <!-- Quadratic Discriminant -->
@@ -169,7 +169,7 @@
           <div class="col"><input id="b" type="number" class="form-control" placeholder="b"></div>
           <div class="col"><input id="c" type="number" class="form-control" placeholder="c"></div>
         </div>
-        <button class="btn btn-outline-primary mb-2">Calculate Discriminant</button>
+        <button id="Discriminant_BTN" class="btn btn-outline-primary mb-2">Calculate Discriminant</button>
         <div class="alert alert-light" id="discriminantResult"></div>
 
       </div>
